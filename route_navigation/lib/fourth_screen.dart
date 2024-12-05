@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'main.dart';
+import 'main.dart'; 
 
-class SecondScreen extends StatelessWidget {
-  const SecondScreen({super.key});
+class FourthScreen extends StatelessWidget {
+  const FourthScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Second Screen')),
+      appBar: AppBar(title: const Text('Fourth Screen')),
       body: Center(
         child: ElevatedButton(
           onPressed: () {
@@ -18,7 +18,7 @@ class SecondScreen extends StatelessWidget {
               (route) => false, // Menghapus semua rute sebelumnya
             );
           },
-          child: const Text('Go Back to Main Screen'),
+          child: const Text('Back to Main Screen'),
         ),
       ),
     );
