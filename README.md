@@ -11,9 +11,13 @@
  1. Flutter SDK: Ensure Flutter is installed and set up on your system. Follow the official Flutter installation guide (https://docs.flutter.dev/get-started/install)
  2. IDE: use and IDE such as Visual Studio Code or Android Studio with Flutter and Dart plugins installed.
  3. Clone the repository:
+    
     git clone https://github.com/liwangivone/Routes---Navigation
+    
     cd <project_directory>
+    
     flutter pub get
+    
 
 # Usage
  1. Type flutter run on the terminal or use the run and debugging button.
