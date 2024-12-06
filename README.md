@@ -6,9 +6,12 @@
  During the making process of this project, one of the key challenges were synchronizing the navigation state across multiple navigation tools, such as the bottom navigation bar and the navigation drawer. Another challenge was handling back navigation correctly, especially when implementing Navigator.push and Navigator.pop for making transitions between screens.
 
  Here's a short tutorial on how to run this application:
- 1. Clone this whole repository and open in using Visual Studio Code.
- 2. Choose the device which you prefer to launch the application.
- 3. Click on the run and debug button and wait until the application launches.
- 4. The application is ready to use.
+ 1. Clone this whole repository and open it using Visual Studio Code.
+ 2. Install Flutter SDK on the extension section and enable it.
+ 3. Choose the device which you prefer to launch the application, on the bottom right section.
+ 4. Click on the run and debug button and wait until the application launches.
+ 5. If you are using chrome or edge, don't forget to inspect and customize the size of the frame into a mobile one.
+ 6. The application now is ready to use.
+ 7. Specifically you can use this app to move from one screen to another by pressing the button on the middle of the screen or using the bottom navigation bar and navigation drawer.
  
  
