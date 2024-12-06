@@ -8,7 +8,7 @@
  During the making process of this project, one of the key challenges were synchronizing the navigation state across multiple navigation tools, such as the bottom navigation bar and the navigation drawer. Another challenge was handling back navigation correctly, especially when implementing Navigator.push and Navigator.pop for making transitions between screens.
 
 # Installation
- 1. Flutter SDK: Ensure Flutter is installed and set up on your system. Follow the official Flutter installation guide.
+ 1. Flutter SDK: Ensure Flutter is installed and set up on your system. Follow the official Flutter installation guide (https://docs.flutter.dev/get-started/install)
  2. IDE: use and IDE such as Visual Studio Code or Android Studio with Flutter and Dart plugins installed.
  3. Clone the repository:
     git clone https://github.com/liwangivone/Routes---Navigation
