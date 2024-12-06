@@ -14,7 +14,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Navigation Codelab',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.pink,
+        primaryColor: const Color(0xFFFF8787)
       ),
       home: const MainScreen(),
     );
@@ -58,7 +59,7 @@ class _MainScreenState extends State<MainScreen> {
           padding: EdgeInsets.zero,
           children: [
             const DrawerHeader(
-              decoration: BoxDecoration(color: Colors.blue),
+              decoration: BoxDecoration(color: Color(0xFFFF8787)),
               child: Text(
                 'Navigation Drawer',
                 style: TextStyle(color: Colors.white, fontSize: 24),
@@ -121,7 +122,7 @@ class _MainScreenState extends State<MainScreen> {
           ),
         ],
         currentIndex: _selectedIndex,
-        selectedItemColor: Colors.blue,
+        selectedItemColor: const Color(0xFFFF8787),
         unselectedItemColor: Colors.grey,
         onTap: _onItemTapped,
       ),
